@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    background-color: #212121;
+    color:white;
+    font-family: poppins;
+}
+.search{
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.javapng{
+    position: absolute;
+    top:35%;
+    left:95%;
+    transform: translate(-50%,-50%);
+}
+.search input{
+    font-size: 30px;
+    border-radius: 8px;
+    border:none;
+}
+.search h1{
+    text-align: center;
+}
+.search button{
+    position: absolute;
+    top:75%;
+    left:102%;
+}
+
+.hidden{
+    display:none;
+}
+
+.function{
+    text-align: center;
+    padding:20px;
+    background-color: rgb(48, 48, 48);
+    position:absolute;
+    top:45%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.functionEx{
+    margin-left:200px;
+    margin-right:200px;
+    padding:10px;
+    background-color: rgb(36, 36, 36);
+}
+button{
+    border-radius: 4px;
+    cursor: pointer;
+    border:none;
+    font-size: 20px ;
+    background-color: rgb(255, 255, 255);
+}
+button:hover{
+    background-color: rgba(255, 255, 255, 0.664);
+}
+.arrays{
+    text-align: center;
+    padding:20px;
+    background-color: rgb(48, 48, 48);
+    position:absolute;
+    top:45%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.text-color{
+    text-align: center;
+    padding:20px;
+    background-color: rgb(48, 48, 48);
+    position:absolute;
+    top:45%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.textcolorEx{
+    margin-left:200px;
+    margin-right:200px;
+    padding:10px;
+    background-color: rgb(36, 36, 36);
+}
+.Exarrays{
+    margin-left:200px;
+    margin-right:200px;
+    padding:10px;
+    background-color: rgb(36, 36, 36);
+}
+.mathfloor{
+    text-align: center;
+    padding:20px;
+    background-color: rgb(48, 48, 48);
+    position:absolute;
+    top:45%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.mathfloorEx{
+    margin-left:200px;
+    margin-right:200px;
+    padding:10px;
+    background-color: rgb(36, 36, 36);
+}
+
+.siks1488{
+    position: absolute;
+    top:110%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.fa-brands.fa-github{
+    cursor: pointer;
+    font-size: 30px;
+    position: absolute;
+    top:25%;
+    left:92%;
+    color:white;
+}

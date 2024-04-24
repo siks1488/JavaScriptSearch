@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find...</title>
+    <link rel="Stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png">
+    <script src="https://kit.fontawesome.com/4d1c87ca1c.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="search">
+        <h1>JavaScript Search</h1>
+        <a href="https://github.com/siks1488"><i class="fa-brands fa-github" style="color: #ffffff;"></i></a>
+        <input type="search">
+        <button>Submit</button>
+    </div>
+
+    <div class="function hidden">
+        <button class="close">Close</button>
+        <h1>Function</h1>
+        <p> 1.Declaration: Create a function with the function keyword.<br>
+            2.Parameters and Arguments: Define inputs (parameters) for your function, which are set when the function is called (arguments).<br>
+            3.Return Values: Use return to send back a result from the function.<br>
+            4.Anonymous Functions: Functions without a name, often used in callbacks.<br>
+            5.Arrow Functions: A concise syntax for defining functions, introduced in ES6.<br>
+            6.Callback Functions: Functions passed as arguments to other functions, often used in asynchronous programming.</p>
+        <p class="functionEx">function sayHello() {<br>
+         console.log("Hello");<br>
+        }<br><br>
+        
+        sayHello();</p>
+    </div>
+
+    <div class="arrays hidden">
+        <button class="close">Close</button>
+        <h1>Arrays</h1>
+        <p>1.Declaration: An array is declared using square brackets [], and its elements are separated by commas.<br>
+           2.Accessing Elements: Elements in an array can be accessed by their index, starting from 0.<br>
+           3.length Property: Used to get the number of elements in an array.<br>
+           4.Array Modification Methods: Methods like push(), pop(), shift(), unshift() are used to add or remove elements from an array.<br>
+           5.Iterating Through Elements: You can iterate through the elements of an array using for loops or forEach() method.<br>
+           6.map() Method: Used to create a new array by applying a function to each element of the original array.<br>
+        </p>
+        <p class="Exarrays">1.let myArray = [1, 2, 3, 4, 5];<br><br>
+                            2.console.log(myArray[0]);<br><br>
+                            3.console.log(myArray.length);<br><br>
+                            4.myArray.push(6);<br>
+                            myArray.pop();<br><br>
+                            5.myArray.forEach(function(element) {<br>
+                                console.log(element);<br>
+                            });<br><br>
+                            6.let doubledArray = myArray.map(function(element) {<br>
+                                return element * 2;<br>
+                            });<br>
+        </p>
+    </div>
+    <div class="text-color hidden">
+        <button class="close">Close</button>
+        <h1>Style color Property</h1>
+        <p><b>Example</b><br>
+          Set the text-color for different elements:</p>
+        <p class="textcolorEx">document.getElementById("myH2").style.color = "#ff0000"; <br>
+            document.getElementById("myP").style.color = "magenta";<br>
+            document.getElementById("myP2").style.color = "blue";<br>
+            document.getElementById("myDiv").style.color = "lightblue";<br></p>
+    </div>
+    <div class="mathfloor hidden">
+        <button class="close">Close</button>
+        <h1>Math.floor()</h1>
+        <p>
+            The Math.floor() function in JavaScript is used to return the largest integer less than or equal to a given number. Essentially, it "cuts off" the decimal part of a number and returns the integer part.<br>
+            <br>Here's an example of using <b>Math.floor()</b>:</p>
+        <p class="mathfloorEx">console.log(Math.floor(3.9));<br>
+            console.log(Math.floor(5.7));<br>
+            console.log(Math.floor(-2.3));<br></p>
+        <p>In each case, Math.floor() returns the largest integer less than or equal to the given number. So, for <b>3.9</b>, the result is <b>3</b>, for <b>5.7</b> it is <b>5</b>, and for <b>-2.3</b> it is -<b>3</b>.</p>
+    </div>
+
+<script src="script.js"></script>    
+</body>
+</html>

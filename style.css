@@ -51,11 +51,16 @@ body{
     background-color: rgb(36, 36, 36);
 }
 button{
+    display:block;
     border-radius: 4px;
+    margin-top:-3px;
     cursor: pointer;
     border:none;
     font-size: 20px ;
     background-color: rgb(255, 255, 255);
+    transition-duration: 0.5s;
+    text-align: center;
+    padding:5px 20px;
 }
 button:hover{
     background-color: rgba(255, 255, 255, 0.664);
